@@ -10,7 +10,8 @@ numpy, pandas, hvplot, matplotlib, tensorflow, keras, from tensorflow: Sequentia
 
 1 The model using closing price had a much lower loss than the model using fng scores to predict closing prices at 0.03240999951958656 v 0.1087786927819252 in the fng model.
 
-2 As seen in the plots of real v predicted values it is clear the the model using closing price to make predictions follows the actual vaules better over time.
+2 As seen in the plots of real v predicted values it is clear the the model using closing price (top) to make predictions follows the actual vaules better over time v the model using the fng data (bottom).
+
 ![closing_plt.PNG](https://github.com/AndreasC93/deep-learning/blob/main/Master/Images/closing_plt.PNG?raw=true)
 ![fng_plt.PNG](https://github.com/AndreasC93/deep-learning/blob/main/Master/Images/fng_plt.PNG?raw=true)
 
